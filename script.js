@@ -7,14 +7,11 @@ function validateSyntax() {
         // Check if input starts with 'pet_' and followed by alphanumeric characters
 
 
-       let result = ""
-       if (result === "pet_" + result === "0-9" + result === "a-z") {
-           result = "Valid Syntax";
-       } else {
-           result = "Invalid Syntax";
-       }
-            
-            document.getElementById('result').innerText = result;
+        let result = ""
+        let regex = /^pet_\d{4}[a-zA-Z]{1,30}$/;
+
+       
+        document.getElementById('result').innerText = result;
 }
 
 
