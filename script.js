@@ -7,7 +7,7 @@ function validateSyntax() {
     // Check if input starts with 'pet_' and followed by alphanumeric characters
 
     // Define the regular expression pattern
-    let regex = /^pet_[0-9]{4}[A-Za-z]{1,30}$/; 
+    let regex = /^pet_[0-9]{4}[A-Za-z]{1,20}$/; 
 
     // Check if the input matches the regex
         if (regex.test(input)) {
