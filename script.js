@@ -11,9 +11,9 @@ function validateSyntax() {
 
     // Check if the input matches the regex
         if (regex.test(input)) {
-            result = "Valid Syntax";
+            result = "Valid Syntax \u{1F7E2}"; 
         } else {
-            result = "Invalid Syntax";
+            result = "Invalid Syntax \u{1F534}";
         }
 
     // Display the result
