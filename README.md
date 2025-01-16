@@ -31,3 +31,10 @@ Imagine you are building a virtual pet adoption website, and you need to create 
 This challenge helps students practice basic string manipulation and validation in JavaScript, along with simple DOM manipulation to create an interactive and user-friendly interface.
 
 Check out the practice challenges on Scrimba here: https://scrimba.com/playlist/pqPae6ZH7
+
+## How I solve the Challenge
+- First I clone and save the starter code in my local machine.
+- Using VSCode, I modify the script.js file by writing a validation logic:
+    1. Defining the regular expression pattern for the input value with the variable name "regex"
+    2. I write an "If" statement to check that the input matches the regex parttern.
+    3. Then display the syntax result by clicking the validate button to set result to "Valid Syntax" If it matches. Otherwise, set it to "Invalid Syntax."
