@@ -12,7 +12,10 @@ function validateSyntax() {
     let regex = /^pet_[0-9]{4}[A-Za-z]{1,20}$/; 
 
     // Check if the input matches the regex
-        if (regex.test(input)) {
+        if (input === '') {
+        result = "Input cannot be empty \u{1F534}";
+        }
+        else if (regex.test(input)) {
             result = "Valid Syntax \u{1F7E2}"; 
         } else {
             result = "Invalid Syntax \u{1F534}";
