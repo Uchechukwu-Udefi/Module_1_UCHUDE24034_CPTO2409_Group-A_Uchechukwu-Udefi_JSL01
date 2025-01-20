@@ -1,5 +1,7 @@
 function validateSyntax() {
-    let input = document.getElementById('petInput').value;
+    // Get the input value and remove whitespace
+    let input = document.getElementById('petInput').value.trim(); 
+
     // Validation logic goes here
     let result = ''; // Placeholder for validation result
 
